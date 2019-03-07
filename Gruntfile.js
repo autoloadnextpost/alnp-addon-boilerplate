@@ -166,8 +166,16 @@ module.exports = function(grunt) {
 						to: "<%= pkg.description %>"
 					},
 					{
+						from: 'ALNP_ADDON',
+						to: "<%= pkg.constant =>"
+					},
+					{
 						from: 'ALNP_Addon_Name',
 						to: '<%= pkg.class_name %>'
+					},
+					{
+						from: 'alnp_addon_name',
+						to: '<%= pkg.localize_script %>'
 					}
 				]
 			}
