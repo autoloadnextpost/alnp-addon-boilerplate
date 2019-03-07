@@ -119,7 +119,7 @@ if ( ! class_exists( 'ALNP_Addon_Name' ) ) {
 		 * Setup plugin constants.
 		 *
 		 * @access private
-		 * @since  2.0.0
+		 * @since  1.0.0
 		 * @return void
 		 */
 		private function constants() {
