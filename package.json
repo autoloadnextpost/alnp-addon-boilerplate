@@ -28,7 +28,9 @@
   "keywords": [
     ""
   ],
+  "constant": "ALNP_ADDON",
   "class_name": "ALNP_Addon_Name",
+  "localize_script": "alnp_addon_name",
   "dependencies": {
     "grunt": "^1.0.3"
   },
