@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="notice notice-error">
-    <p><?php echo sprintf( __( '%1$s requires %2$sAuto Load Next Post%3$s. Install and activate Auto Load Next Post version %4$s or higher.', '@@name' ), esc_html( '@@name', '@@name' ), '<strong>', '</strong>', ALNP_ADDON_ALNP_REQUIRED ); ?></p>
+    <p><?php echo sprintf( __( '%1$s requires %2$sAuto Load Next Post%3$s. Please install and activate Auto Load Next Post version %4$s or higher first.', '@@name' ), esc_html( '@@title', '@@name' ), '<strong>', '</strong>', ALNP_ADDON_ALNP_REQUIRED ); ?></p>
 
     <p>
     <?php
